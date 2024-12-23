@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'Nigger';
+  src: url('../src/assets/JosefinSans-VariableFont_wght.ttf');
+}
+
+
+*{
+  font-family:'Nigger';
+  text-decoration: none;
+}
+
+.nav-link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #ff69b4;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8e0e6;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e485b3;
+  margin-left: 40px;
+}
+
+.nav .btn {
+  margin-left: 10px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #fff;
+  color: #ff69b4;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  background-color: #f8e0e6;
+  background-image: url("./assets/images/image15.png");
+  background-position: center;
+  height: 500px;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #ff69b4;
+}
+
+.categories {
+  margin: 20px 0;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 180px;
+  margin-bottom: 80px;
+}
+
+.category50 {
+  background-image: url(../src/assets/images/image50.png);
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+.category50 p{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 60px;
+}
+
+.category51 {
+  background-image: url(../src/assets/images/image51.png);
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+.category51 p{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 65px;
+}
+
+.category52 {
+  background-image: url(../src/assets/images/image52.png);
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+.category52 p{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 50px;
+}
+
+.category53 {
+  background-image: url(../src/assets/images/image53.png);
+  background-size: cover;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+.category53 p{
+  position: absolute;
+  margin-top: 180px;
+  margin-left: 55px;
+}
+
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 270px;
+  margin: 20px 0;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  width: 250px;
+  height: 300px;
+}
+
+.product img{
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+.footer {
+  background-color: #f8e0e6;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.banner {
+  background-color: #610018;
+  background-image: url("./assets/images/image40.png");
+  background-position: center;
+  background-size: cover;
+  /* width: 100VW; */
+  height: 600px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.banner0 {
+  /* display: flex;
+  background-image: url("arrow-left-square.png");
+  background-image: url("arrow-right-square.png");  */
+  /* background-position: center;
+  height: 600px;
+  width: 3000px;
+  margin-bottom: 100px; */
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.lol {
+  background-position: center;
+  height: 600px;
+  width: 1300px;
+  margin-bottom: 100px;
+}
+.strelka {
+  margin-bottom: 50px;
+}
+
+.stroki {
+  margin-bottom: 80px;
+}
+
+/* .ceti {
+  display: flex;
+  gap: 100px;
+} */
+
+.instagram {
+  margin-left: 30px;
+  margin-right: 30px
+}
+
+.linkedin {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.photo {
+object-fit: cover;
+height: 600px;
+}
